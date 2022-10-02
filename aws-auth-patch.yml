@@ -4,12 +4,12 @@ data:
     - groups:
       - system:bootstrappers
       - system:nodes
-      rolearn: arn:aws:iam::565605263567:role/eksctl-simple-jwt-api-nodegroup-n-NodeInstanceRole-1BGF3HGLBH4QQ
+      rolearn: arn:aws:iam::565605263567:role/eksctl-simple-jwt-api-nodegroup-n-NodeInstanceRole-4SZY747NRTIU
       username: system:node:{{EC2PrivateDNSName}}
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2022-10-01T01:29:47Z"
+  creationTimestamp: "2022-10-02T11:23:11Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1543"
-  uid: eae6ba7c-897f-4454-95d8-5d8de92beb5d
+  resourceVersion: "1866"
+  uid: 18c39253-74b4-4aae-8ae7-aad151834437
